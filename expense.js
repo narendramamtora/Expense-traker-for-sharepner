@@ -26,7 +26,7 @@ myForm.addEventListener('submit', onsubmit);//if not working try onsubmit
 expenseList.addEventListener('click', removeItem)
 expenseList.addEventListener('click', editexpense)
 
-//Add item
+//Add item expense
 function onsubmit(e){
     e.preventDefault();
 
